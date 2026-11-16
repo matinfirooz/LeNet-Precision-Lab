@@ -1,0 +1,49 @@
+Executing code cell 1: from pathlib import Path
+Executing code cell 2: def answer_section(number):
+Executing code cell 3: answer_section(1)
+Executing code cell 4: answer_section(2)
+Executing code cell 5: answer_section(3)
+Executing code cell 6: from software.quantization import SAMPLE, parameters, quantize, dequantize
+Executing code cell 7: answer_section(4)
+Executing code cell 8: from software.data import load_idx, split_indices, CLASSES
+Executing code cell 9: answer_section(5)
+Executing code cell 10: manual=json.loads((ROOT/'results/quantization/manual_results.json').read_text())
+Executing code cell 11: answer_section(6)
+Executing code cell 12: framework=json.loads((ROOT/'results/quantization/pytorch_results.json').read_text())
+Executing code cell 13: answer_section(7)
+Executing code cell 14: figure('results/figures/compression_accuracy.png')
+Executing code cell 15: answer_section(8)
+Executing code cell 16: pruning=json.loads((ROOT/'results/pruning/pruning_results.json').read_text())
+Executing code cell 17: answer_section(9)
+Executing code cell 18: from software.exports import load_export
+Executing code cell 19: from software.packed_runtime import PackedLeNet
+Executing code cell 20: answer_section(10)
+Executing code cell 21: figure('results/figures/latency.png')
+Executing code cell 22: answer_section(11)
+Executing code cell 23: if RUN_TESTS:
+Executing code cell 24: answer_section(12)
+Executing code cell 25: display(Code(filename=str(ROOT/'software/quantization.py'), language='python'))
+Executing code cell 26: display(Code(filename=str(ROOT/'software/numpy_lenet.py'), language='python'))
+Executing code cell 27: display(Code(filename=str(ROOT/'software/data.py'), language='python'))
+Executing code cell 28: display(Code(filename=str(ROOT/'software/model.py'), language='python'))
+Executing code cell 29: display(Code(filename=str(ROOT/'scripts/train.py'), language='python'))
+Executing code cell 30: display(Code(filename=str(ROOT/'scripts/run_manual.py'), language='python'))
+Executing code cell 31: display(Code(filename=str(ROOT/'software/torch_quantization.py'), language='python'))
+Executing code cell 32: display(Code(filename=str(ROOT/'scripts/run_pytorch.py'), language='python'))
+Executing code cell 33: display(Code(filename=str(ROOT/'software/exports.py'), language='python'))
+Executing code cell 34: display(Code(filename=str(ROOT/'software/packed_runtime.py'), language='python'))
+Executing code cell 35: display(Code(filename=str(ROOT/'scripts/infer_packed.py'), language='python'))
+Executing code cell 36: display(Code(filename=str(ROOT/'scripts/qualify_packed.py'), language='python'))
+Executing code cell 37: display(Code(filename=str(ROOT/'software/pruning.py'), language='python'))
+Executing code cell 38: display(Code(filename=str(ROOT/'scripts/run_pruning.py'), language='python'))
+Executing code cell 39: display(Code(filename=str(ROOT/'scripts/benchmark.py'), language='python'))
+Executing code cell 40: display(Code(filename=str(ROOT/'software/evidence.py'), language='python'))
+Executing code cell 41: display(Code(filename=str(ROOT/'tests/test_quantization.py'), language='python'))
+Executing code cell 42: display(Code(filename=str(ROOT/'tests/test_project.py'), language='python'))
+Executing code cell 43: display(Code(filename=str(ROOT/'software/figures.py'), language='python'))
+Executing code cell 44: display(Code(filename=str(ROOT/'software/schematic_symbols.py'), language='python'))
+Executing code cell 45: display(Code(filename=str(ROOT/'software/reporting.py'), language='python'))
+Executing code cell 46: display(Code(filename=str(ROOT/'scripts/run_all.py'), language='python'))
+Executing code cell 47: display(Code(filename=str(ROOT/'scripts/execute_notebook.py'), language='python'))
+Executed 47 code cells successfully in 14.1 seconds.
+Saved: HW4_Matin_Firoozbakht.ipynb

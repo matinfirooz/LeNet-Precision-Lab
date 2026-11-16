@@ -1,0 +1,33 @@
+test_all_result_counts_match_saved_full_test_predictions (test_project.ProjectTests.test_all_result_counts_match_saved_full_test_predictions) ... ok
+test_binary_grid_and_payload_corruption_is_rejected (test_project.ProjectTests.test_binary_grid_and_payload_corruption_is_rejected) ... ok
+test_compact_equivalence_and_propagated_shapes (test_project.ProjectTests.test_compact_equivalence_and_propagated_shapes) ... ok
+test_dataset_checksums_and_disjoint_calibration (test_project.ProjectTests.test_dataset_checksums_and_disjoint_calibration) ... ok
+test_documentation_uses_changed_experiment_metrics (test_project.ProjectTests.test_documentation_uses_changed_experiment_metrics) ... ok
+test_every_packed_export_reloads_to_evaluated_weights (test_project.ProjectTests.test_every_packed_export_reloads_to_evaluated_weights) ... ok
+test_evidence_detects_new_and_changed_computational_inputs (test_project.ProjectTests.test_evidence_detects_new_and_changed_computational_inputs) ... ok
+test_manual_process_had_no_neural_network_imports (test_project.ProjectTests.test_manual_process_had_no_neural_network_imports) ... ok
+test_model_parameters_and_macs (test_project.ProjectTests.test_model_parameters_and_macs) ... ok
+test_native_model_has_quantized_operators_and_reloads (test_project.ProjectTests.test_native_model_has_quantized_operators_and_reloads) ... /workspace/scratch/6ef5a5608324/tmp/hw3_deps/torch/_utils.py:413: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  device=storage.device,
+ok
+test_numpy_matches_torch_on_images (test_project.ProjectTests.test_numpy_matches_torch_on_images) ... ok
+test_packed_runtime_and_single_image_command (test_project.ProjectTests.test_packed_runtime_and_single_image_command) ... ok
+test_pruning_masks_survive_optimizer_updates (test_project.ProjectTests.test_pruning_masks_survive_optimizer_updates) ... ok
+test_saved_models_reproduce_saved_predictions (test_project.ProjectTests.test_saved_models_reproduce_saved_predictions) ... ok
+test_sparse_exports_roundtrip (test_project.ProjectTests.test_sparse_exports_roundtrip) ... ok
+test_affine_represents_zero_exactly (test_quantization.QuantizationTests.test_affine_represents_zero_exactly) ... ok
+test_all_zero_constant_and_positive_negative_tensors (test_quantization.QuantizationTests.test_all_zero_constant_and_positive_negative_tensors) ... ok
+test_corrected_asymmetric_example (test_quantization.QuantizationTests.test_corrected_asymmetric_example) ... ok
+test_endpoint_zero_is_not_integer_affine (test_quantization.QuantizationTests.test_endpoint_zero_is_not_integer_affine) ... ok
+test_given_symmetric_example (test_quantization.QuantizationTests.test_given_symmetric_example) ... ok
+test_integer_zero_point_expansion (test_quantization.QuantizationTests.test_integer_zero_point_expansion) ... ok
+test_invalid_inputs (test_quantization.QuantizationTests.test_invalid_inputs) ... ok
+test_nearest_even_rounding_and_odd_zero_point (test_quantization.QuantizationTests.test_nearest_even_rounding_and_odd_zero_point) ... ok
+test_pack_roundtrip_all_codes_and_odd_lengths (test_quantization.QuantizationTests.test_pack_roundtrip_all_codes_and_odd_lengths) ... ok
+test_packing_known_endianness (test_quantization.QuantizationTests.test_packing_known_endianness) ... ok
+test_saturation_and_half_step_error (test_quantization.QuantizationTests.test_saturation_and_half_step_error) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 3.354s
+
+OK
