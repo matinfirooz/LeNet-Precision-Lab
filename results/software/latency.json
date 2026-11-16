@@ -1,0 +1,53 @@
+{
+  "status": "completed",
+  "cpu": "AMD EPYC 7763 64-Core Processor",
+  "threads": 1,
+  "warmup_calls": 100,
+  "measured_calls": 500,
+  "torch_version": "2.5.1+cpu",
+  "engine": "x86",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "results": [
+    {
+      "model": "FP32",
+      "batch_size": 1,
+      "median_us": 624.341,
+      "p90_us": 680.7833,
+      "minimum_us": 441.975,
+      "dense_macs": 416520
+    },
+    {
+      "model": "FP16",
+      "batch_size": 1,
+      "median_us": 790.0605,
+      "p90_us": 869.1442000000001,
+      "minimum_us": 491.317,
+      "dense_macs": 416520
+    },
+    {
+      "model": "Native INT8",
+      "batch_size": 1,
+      "median_us": 749.44,
+      "p90_us": 828.4113,
+      "minimum_us": 493.271,
+      "dense_macs": 416520
+    },
+    {
+      "model": "75% sparse weights, dense kernels",
+      "batch_size": 1,
+      "median_us": 633.383,
+      "p90_us": 693.5222000000001,
+      "minimum_us": 424.592,
+      "dense_macs": 416520
+    },
+    {
+      "model": "Compacted FP32",
+      "batch_size": 1,
+      "median_us": 612.043,
+      "p90_us": 666.1843,
+      "minimum_us": 410.757,
+      "dense_macs": 231700
+    }
+  ],
+  "limitations": "Shared CPU, one batch size, Python dispatch included; no energy or FPGA timing measurements."
+}
