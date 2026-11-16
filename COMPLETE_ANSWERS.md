@@ -18,7 +18,7 @@ For b bits, the assignment uses a narrow signed range:
 
 $$Q=2^{b-1}-1,\quad q_{\min}=-Q,\quad q_{\max}=Q,$$
 $$s=\max_i |x_i|/Q,\quad z=0,$$
-$$q=\operatorname{clip}(\operatorname{round}(x/s),-Q,Q),\quad \hat{x}=sq.$$
+$$q=\mathrm{clip}(\mathrm{round}(x/s),-Q,Q),\quad \hat{x}=sq.$$
 
 All-zero tensors use scale 1 and code 0. This implementation uses nearest-even rounding and saturates explicitly. In the absence of clipping, nearest-neighbor reconstruction error is at most half a scale step. The often-used estimate MSE ≈ s²/12 additionally assumes a roughly uniform quantization residual; it is not a guarantee for these weights.
 
@@ -31,7 +31,7 @@ At two bits the narrow symmetric range is **−1 to +1**, so it has three active
 The supplied PDF states:
 
 $$s=(x_{\max}-x_{\min})/(2^b-1),$$
-$$q=\operatorname{clip}(\operatorname{round}((x-x_{\min})/s),0,2^b-1),$$
+$$q=\mathrm{clip}(\mathrm{round}((x-x_{\min})/s),0,2^b-1),$$
 $$\hat{x}=sq+x_{\min}.$$
 
 This uses a real-valued offset. It preserves the two endpoints but generally cannot make a floating-point zero exactly representable with an integer zero-point. Constant tensors use scale 1, code 0 and their constant value as the offset.
@@ -41,8 +41,8 @@ This uses a real-valued offset. It preserves the two endpoints but generally can
 Use a range that includes zero:
 
 $$l=\min(x_{\min},0),\quad h=\max(x_{\max},0),$$
-$$s=(h-l)/(2^b-1),\quad z=\operatorname{clip}(\operatorname{round}(-l/s),0,2^b-1),$$
-$$q=\operatorname{clip}(\operatorname{round}(x/s)+z,0,2^b-1),\quad \hat{x}=s(q-z).$$
+$$s=(h-l)/(2^b-1),\quad z=\mathrm{clip}(\mathrm{round}(-l/s),0,2^b-1),$$
+$$q=\mathrm{clip}(\mathrm{round}(x/s)+z,0,2^b-1),\quad \hat{x}=s(q-z).$$
 
 All-zero tensors use s=1 and z=0. Positive and negative constant tensors are handled by including zero in the calibration range. In this formulation code z reconstructs exactly to zero, which is useful for padding, sparse zeros and integer MAC correction. Symmetric and affine methods are compared under the same per-tensor policy; the native backend is a separate per-channel experiment.
 
@@ -197,7 +197,7 @@ Convolutions use OIHW and linear layers OI layout, both flattened in C order. IN
 For integer affine operands, the exact widened accumulation is:
 
 $$A_j=\sum_{i=0}^{K-1}(q_{x,i}-z_x)(q_{w,ji}-z_w)+b_{q,j},$$
-$$b_{q,j}=\operatorname{round}(b_j/(s_xs_w)),\qquad \hat{y}_j=s_xs_w A_j.$$
+$$b_{q,j}=\mathrm{round}(b_j/(s_xs_w)),\qquad \hat{y}_j=s_xs_w A_j.$$
 
 Equivalent correction before adding bias is:
 
