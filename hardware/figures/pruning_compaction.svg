@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="900pt" height="568.8pt" viewBox="0 0 900 568.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-16T13:43:23.263198</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 568.8 
+L 900 568.8 
+L 900 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 20.16 50.4 
+L 879.84 50.4 
+" clip-path="url(#p18c39ccc72)" style="fill: none; stroke: #dce4ea; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 223.2 250.56 
+L 270 250.56 
+" clip-path="url(#p18c39ccc72)" style="fill: none; stroke: #1d6578; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 270 250.56 
+L 270 147.6 
+L 309.6 147.6 
+" clip-path="url(#p18c39ccc72)" style="fill: none; stroke: #1d6578; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 270 250.56 
+L 270 370.8 
+L 309.6 370.8 
+" clip-path="url(#p18c39ccc72)" style="fill: none; stroke: #1d6578; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 514.8 147.6 
+L 640.8 147.6 
+" clip-path="url(#p18c39ccc72)" style="fill: none; stroke: #1d6578; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 514.8 370.8 
+L 640.8 370.8 
+" clip-path="url(#p18c39ccc72)" style="fill: none; stroke: #1d6578; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 20.16 525.6 
+L 879.84 525.6 
+" clip-path="url(#p18c39ccc72)" style="fill: none; stroke: #dce4ea; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_2">
+    <path d="M 54 205.2 
+L 223.2 205.2 
+L 223.2 295.2 
+L 54 295.2 
+z
+" clip-path="url(#p18c39ccc72)" style="fill: #eff5f9; stroke: #20394c; stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 309.6 104.4 
+L 514.8 104.4 
+L 514.8 190.8 
+L 309.6 190.8 
+z
+" clip-path="url(#p18c39ccc72)" style="fill: #f5f8f9; stroke: #20394c; stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 640.8 82.8 
+L 856.8 82.8 
+L 856.8 237.6 
+L 640.8 237.6 
+z
+" clip-path="url(#p18c39ccc72)" style="fill: #eff5f9; stroke: #20394c; stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 656.64 134.64 
+L 840.96 134.64 
+L 840.96 155.52 
+L 656.64 155.52 
+z
+" clip-path="url(#p18c39ccc72)" style="fill: #f1f4f8; stroke: #20394c; stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 656.64 158.4 
+L 840.96 158.4 
+L 840.96 179.28 
+L 656.64 179.28 
+z
+" clip-path="url(#p18c39ccc72)" style="fill: #f1f4f8; stroke: #20394c; stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 656.64 182.16 
+L 840.96 182.16 
+L 840.96 203.04 
+L 656.64 203.04 
+z
+" clip-path="url(#p18c39ccc72)" style="fill: #f1f4f8; stroke: #20394c; stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 309.6 327.6 
+L 514.8 327.6 
+L 514.8 414 
+L 309.6 414 
+z
+" clip-path="url(#p18c39ccc72)" style="fill: #f5f8f9; stroke: #20394c; stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 640.8 306 
+L 856.8 306 
+L 856.8 460.8 
+L 640.8 460.8 
+z
+" clip-path="url(#p18c39ccc72)" style="fill: #eff5f9; stroke: #20394c; stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 650.88 360 
+L 698.4 360 
+L 698.4 397.44 
+L 650.88 397.44 
+z
+" clip-path="url(#p18c39ccc72)" style="fill: #f1f4f8; stroke: #20394c; stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 701.28 360 
+L 748.8 360 
+L 748.8 397.44 
+L 701.28 397.44 
+z
+" clip-path="url(#p18c39ccc72)" style="fill: #f1f4f8; stroke: #20394c; stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 751.68 360 
+L 799.2 360 
+L 799.2 397.44 
+L 751.68 397.44 
+z
+" clip-path="url(#p18c39ccc72)" style="fill: #f1f4f8; stroke: #20394c; stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 802.08 360 
+L 849.6 360 
+L 849.6 397.44 
+L 802.08 397.44 
+z
+" clip-path="url(#p18c39ccc72)" style="fill: #f1f4f8; stroke: #20394c; stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 54 482.4 
+L 856.8 482.4 
+L 856.8 516.96 
+L 54 516.96 
+z
+" clip-path="url(#p18c39ccc72)" style="fill: #fff4e8; stroke: #20394c; stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 309.6 147.6 
+L 303.84 150.12 
+L 303.84 145.08 
+z
+" clip-path="url(#p18c39ccc72)" style="fill: #1d6578; stroke: #1d6578; stroke-width: 0.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 309.6 370.8 
+L 303.84 373.32 
+L 303.84 368.28 
+z
+" clip-path="url(#p18c39ccc72)" style="fill: #1d6578; stroke: #1d6578; stroke-width: 0.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 640.8 147.6 
+L 635.04 150.12 
+L 635.04 145.08 
+z
+" clip-path="url(#p18c39ccc72)" style="fill: #1d6578; stroke: #1d6578; stroke-width: 0.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 640.8 370.8 
+L 635.04 373.32 
+L 635.04 368.28 
+z
+" clip-path="url(#p18c39ccc72)" style="fill: #1d6578; stroke: #1d6578; stroke-width: 0.4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 270 248.4 
+C 270.572839 248.4 271.122293 248.627591 271.527351 249.032649 
+C 271.932409 249.437707 272.16 249.987161 272.16 250.56 
+C 272.16 251.132839 271.932409 251.682293 271.527351 252.087351 
+C 271.122293 252.492409 270.572839 252.72 270 252.72 
+C 269.427161 252.72 268.877707 252.492409 268.472649 252.087351 
+C 268.067591 251.682293 267.84 251.132839 267.84 250.56 
+C 267.84 249.987161 268.067591 249.437707 268.472649 249.032649 
+C 268.877707 248.627591 269.427161 248.4 270 248.4 
+z
+" clip-path="url(#p18c39ccc72)" style="fill: #1d6578"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #20394c" x="20.16" y="24.784531" transform="rotate(-0 20.16 24.784531)">Pruning masks and physical channel compaction</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #617281" x="20.16" y="40.061406" transform="rotate(-0 20.16 40.061406)">Two separate L1 experiments  /  fixed global magnitude rates versus structured channel selection</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #20394c" x="138.6" y="225.07125" transform="rotate(-0 138.6 225.07125)">DENSE LENET</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'; fill: #20394c" transform="translate(82.265563 256.366881)">6 / 16 / 120 / 84 channels</text>
+    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'; fill: #20394c" transform="translate(96.284375 266.889619)">61,706 parameters</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #20394c" x="412.2" y="123.995313" transform="rotate(-0 412.2 123.995313)">GLOBAL L1 MASKS</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'; fill: #20394c" transform="translate(354.260938 153.766881)">25 / 50 / 75 / 90% weights</text>
+    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'; fill: #20394c" transform="translate(352.085 164.289619)">Dense dimensions retained</text>
+   </g>
+   <g id="text_7">
+    <g id="patch_20">
+     <path d="M 527.624023 138.123203 
+L 627.255977 138.123203 
+L 627.255977 126.836797 
+L 527.624023 126.836797 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #1d6578" x="577.44" y="134.825469" transform="rotate(-0 577.44 134.825469)">export nonzero entries</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #20394c" x="748.8" y="101.675312" transform="rotate(-0 748.8 101.675312)">CSR EXPORT</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #617281" x="748.8" y="118.985469" transform="rotate(-0 748.8 118.985469)">FP32 values + indices</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #20394c" x="748.8" y="147.425469" transform="rotate(-0 748.8 147.425469)">values</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #20394c" x="748.8" y="171.185469" transform="rotate(-0 748.8 171.185469)">column indices</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #20394c" x="748.8" y="194.945469" transform="rotate(-0 748.8 194.945469)">row pointers</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #505477" x="748.8" y="226.985469" transform="rotate(-0 748.8 226.985469)">Dense MAC count remains 416,520</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #20394c" x="412.2" y="347.195312" transform="rotate(-0 412.2 347.195312)">KEEP + PROPAGATE</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'; fill: #20394c" transform="translate(366.964563 376.966881)">L1 channel selection</text>
+    <text style="font-size: 8.8px; font-family: 'DejaVu Sans'; fill: #20394c" transform="translate(358.665063 387.489619)">4 / 12 / 90 / 63 channels</text>
+   </g>
+   <g id="text_16">
+    <g id="patch_21">
+     <path d="M 525.675664 360.603203 
+L 629.204336 360.603203 
+L 629.204336 349.316797 
+L 525.675664 349.316797 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #1d6578" x="577.44" y="357.305469" transform="rotate(-0 577.44 357.305469)">slice connected tensors</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #20394c" x="748.8" y="324.875313" transform="rotate(-0 748.8 324.875313)">COMPACT LENET</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #617281" x="748.8" y="342.185469" transform="rotate(-0 748.8 342.185469)">Physically smaller channel dimensions</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; fill: #20394c" transform="translate(668.206406 375.822492)">C1</text>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; fill: #20394c" transform="translate(671.508984 386.584383)">4</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; fill: #20394c" transform="translate(718.606406 375.822492)">C3</text>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; fill: #20394c" transform="translate(718.777969 386.584383)">12</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; fill: #20394c" transform="translate(769.006406 375.822492)">C5</text>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; fill: #20394c" transform="translate(769.177969 386.584383)">90</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; fill: #20394c" transform="translate(819.634922 375.822492)">F6</text>
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; fill: #20394c" transform="translate(819.577969 386.584383)">63</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #20394c" x="748.8" y="421.079375" transform="rotate(-0 748.8 421.079375)">34,779 parameters</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #1d6578" x="748.8" y="442.403438" transform="rotate(-0 748.8 442.403438)">231,700 dense MACs / image</text>
+   </g>
+   <g id="text_25">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #20394c" x="455.4" y="502.400313" transform="rotate(-0 455.4 502.400313)">Recovery: three epochs using training and validation only</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #617281" x="20.16" y="538.6075" transform="rotate(-0 20.16 538.6075)">Masking preserves the dense compute dimensions. Channel compaction reduces the dimensions used by subsequent dense computation.</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #617281" x="20.16" y="557.821641" transform="rotate(-0 20.16 557.821641)">Matin Firoozbakht | @matinfirooz | Redrawn from the supplied LeNet precision and compression figures</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p18c39ccc72">
+   <rect x="0" y="0" width="900" height="568.8"/>
+  </clipPath>
+ </defs>
+</svg>
