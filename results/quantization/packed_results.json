@@ -1,0 +1,290 @@
+{
+  "status": "completed",
+  "author": "Matin Firoozbakht",
+  "github": "https://github.com/matinfirooz",
+  "execution": "NumPy FP32 Q/DQ from decoded hardware parameter binaries",
+  "results": [
+    {
+      "bits": 16,
+      "method": "symmetric",
+      "mode": "weights_only",
+      "n": 10000,
+      "correct": 8884,
+      "accuracy": 0.8884,
+      "cross_entropy": 0.3114367425441742,
+      "saved_torch_prediction_disagreements": 0,
+      "saved_torch_max_logit_error": 5.7220458984375e-06,
+      "input_sha256": {
+        "weights.bin": "45763c9bcd7772409191f00b914c130396e6b29500bb4a49e6ccbc7a80e5d87a",
+        "biases_fp32.bin": "6335eea3c3cd653a8e9991d53482766396e0347e978fc2c3e64c580b8131ea96",
+        "qparams.bin": "01315bacce4819aeef7b70c41681998623e25bb352068a13a196b119f4d35965",
+        "metadata.json": "f7a3be5d8ec5bac218fb32210ce797ce756043993ded45e94b0343c60b27e8c0"
+      }
+    },
+    {
+      "bits": 16,
+      "method": "symmetric",
+      "mode": "weights_activations",
+      "n": 10000,
+      "correct": 8884,
+      "accuracy": 0.8884,
+      "cross_entropy": 0.3114379942417145,
+      "saved_torch_prediction_disagreements": 0,
+      "saved_torch_max_logit_error": 0.00041103363037109375,
+      "input_sha256": {
+        "weights.bin": "45763c9bcd7772409191f00b914c130396e6b29500bb4a49e6ccbc7a80e5d87a",
+        "biases_fp32.bin": "6335eea3c3cd653a8e9991d53482766396e0347e978fc2c3e64c580b8131ea96",
+        "qparams.bin": "01315bacce4819aeef7b70c41681998623e25bb352068a13a196b119f4d35965",
+        "metadata.json": "f7a3be5d8ec5bac218fb32210ce797ce756043993ded45e94b0343c60b27e8c0",
+        "activation_qparams.bin": "3c8b778794e74c488eb281bd9656e2bf0c975ab2991779d93458ad3f377c7491"
+      }
+    },
+    {
+      "bits": 16,
+      "method": "affine",
+      "mode": "weights_only",
+      "n": 10000,
+      "correct": 8884,
+      "accuracy": 0.8884,
+      "cross_entropy": 0.3114389181137085,
+      "saved_torch_prediction_disagreements": 0,
+      "saved_torch_max_logit_error": 6.67572021484375e-06,
+      "input_sha256": {
+        "weights.bin": "f51ea8baca2b58945d1090a7968db5c1fe6d5e10c04fcb2b64d890d9b913f503",
+        "biases_fp32.bin": "6335eea3c3cd653a8e9991d53482766396e0347e978fc2c3e64c580b8131ea96",
+        "qparams.bin": "ab168231a05f9ff86a82c273ce571f6b2c5677d30ff2590523a9aef9ae1733dd",
+        "metadata.json": "64479b6531c0c3d4d85c81ef6474abf7a1e0dfe3405105802ac304a3ace536b6"
+      }
+    },
+    {
+      "bits": 16,
+      "method": "affine",
+      "mode": "weights_activations",
+      "n": 10000,
+      "correct": 8884,
+      "accuracy": 0.8884,
+      "cross_entropy": 0.31143781542778015,
+      "saved_torch_prediction_disagreements": 0,
+      "saved_torch_max_logit_error": 0.00034046173095703125,
+      "input_sha256": {
+        "weights.bin": "f51ea8baca2b58945d1090a7968db5c1fe6d5e10c04fcb2b64d890d9b913f503",
+        "biases_fp32.bin": "6335eea3c3cd653a8e9991d53482766396e0347e978fc2c3e64c580b8131ea96",
+        "qparams.bin": "ab168231a05f9ff86a82c273ce571f6b2c5677d30ff2590523a9aef9ae1733dd",
+        "metadata.json": "64479b6531c0c3d4d85c81ef6474abf7a1e0dfe3405105802ac304a3ace536b6",
+        "activation_qparams.bin": "6f45907cfdb03b01c5b96f0f08b035e33904dcf4cc05b35dd266c907052cd96e"
+      }
+    },
+    {
+      "bits": 8,
+      "method": "symmetric",
+      "mode": "weights_only",
+      "n": 10000,
+      "correct": 8885,
+      "accuracy": 0.8885,
+      "cross_entropy": 0.3106727600097656,
+      "saved_torch_prediction_disagreements": 0,
+      "saved_torch_max_logit_error": 6.67572021484375e-06,
+      "input_sha256": {
+        "weights.bin": "2254a51226473de9574da6a9df0175954764efcaa67e6ae22e510480c7226231",
+        "biases_fp32.bin": "6335eea3c3cd653a8e9991d53482766396e0347e978fc2c3e64c580b8131ea96",
+        "qparams.bin": "36d871d5651cad7c5039df352bc825e8572610c17fcd5ca03daf2d06a74e080f",
+        "metadata.json": "1055c564aa00b52fd215abd3eca469429fea9f424198d068a0bdbca52ed7d86a"
+      }
+    },
+    {
+      "bits": 8,
+      "method": "symmetric",
+      "mode": "weights_activations",
+      "n": 10000,
+      "correct": 8882,
+      "accuracy": 0.8882,
+      "cross_entropy": 0.3109196722507477,
+      "saved_torch_prediction_disagreements": 0,
+      "saved_torch_max_logit_error": 0.10603904724121094,
+      "input_sha256": {
+        "weights.bin": "2254a51226473de9574da6a9df0175954764efcaa67e6ae22e510480c7226231",
+        "biases_fp32.bin": "6335eea3c3cd653a8e9991d53482766396e0347e978fc2c3e64c580b8131ea96",
+        "qparams.bin": "36d871d5651cad7c5039df352bc825e8572610c17fcd5ca03daf2d06a74e080f",
+        "metadata.json": "1055c564aa00b52fd215abd3eca469429fea9f424198d068a0bdbca52ed7d86a",
+        "activation_qparams.bin": "4b9e29cb26230e8260edfa3f3bc344fb7ac378621a65c3275a1cef7343b73b00"
+      }
+    },
+    {
+      "bits": 8,
+      "method": "affine",
+      "mode": "weights_only",
+      "n": 10000,
+      "correct": 8884,
+      "accuracy": 0.8884,
+      "cross_entropy": 0.31138119101524353,
+      "saved_torch_prediction_disagreements": 0,
+      "saved_torch_max_logit_error": 6.67572021484375e-06,
+      "input_sha256": {
+        "weights.bin": "43866bcfe72ef90dc4786000b2182e734b5aee4a9c1616bb944d7a4f6db98e52",
+        "biases_fp32.bin": "6335eea3c3cd653a8e9991d53482766396e0347e978fc2c3e64c580b8131ea96",
+        "qparams.bin": "3511b767f0456e4944f7c380df84be2eb5524de0f24084af2efee1aa5f1b7b60",
+        "metadata.json": "c2c0f791f59d7178f342f064302e5abb1e09fdb451016d64bd377b70b4f7be8c"
+      }
+    },
+    {
+      "bits": 8,
+      "method": "affine",
+      "mode": "weights_activations",
+      "n": 10000,
+      "correct": 8885,
+      "accuracy": 0.8885,
+      "cross_entropy": 0.3115100562572479,
+      "saved_torch_prediction_disagreements": 0,
+      "saved_torch_max_logit_error": 0.08741283416748047,
+      "input_sha256": {
+        "weights.bin": "43866bcfe72ef90dc4786000b2182e734b5aee4a9c1616bb944d7a4f6db98e52",
+        "biases_fp32.bin": "6335eea3c3cd653a8e9991d53482766396e0347e978fc2c3e64c580b8131ea96",
+        "qparams.bin": "3511b767f0456e4944f7c380df84be2eb5524de0f24084af2efee1aa5f1b7b60",
+        "metadata.json": "c2c0f791f59d7178f342f064302e5abb1e09fdb451016d64bd377b70b4f7be8c",
+        "activation_qparams.bin": "167a56aa0a359cbecff048b9c6737ac881233af5c9753df3b8091862b72cea17"
+      }
+    },
+    {
+      "bits": 4,
+      "method": "symmetric",
+      "mode": "weights_only",
+      "n": 10000,
+      "correct": 8826,
+      "accuracy": 0.8826,
+      "cross_entropy": 0.32950690388679504,
+      "saved_torch_prediction_disagreements": 0,
+      "saved_torch_max_logit_error": 6.67572021484375e-06,
+      "input_sha256": {
+        "weights.bin": "28f1fd27732b8188a93b5429d35ad07f43c66ab2c837d391a74f6a9d80976fb1",
+        "biases_fp32.bin": "6335eea3c3cd653a8e9991d53482766396e0347e978fc2c3e64c580b8131ea96",
+        "qparams.bin": "7d88542f11bc482509a60a12abfa51ce2f8d076eb56ae8c4fda3a6318bcf1160",
+        "metadata.json": "f87f6dd98da4838284026bcc9c54acbb1e38496e18a8b36411c5157ddc220f84"
+      }
+    },
+    {
+      "bits": 4,
+      "method": "symmetric",
+      "mode": "weights_activations",
+      "n": 10000,
+      "correct": 8626,
+      "accuracy": 0.8626,
+      "cross_entropy": 0.3604304790496826,
+      "saved_torch_prediction_disagreements": 0,
+      "saved_torch_max_logit_error": 1.9238487482070923,
+      "input_sha256": {
+        "weights.bin": "28f1fd27732b8188a93b5429d35ad07f43c66ab2c837d391a74f6a9d80976fb1",
+        "biases_fp32.bin": "6335eea3c3cd653a8e9991d53482766396e0347e978fc2c3e64c580b8131ea96",
+        "qparams.bin": "7d88542f11bc482509a60a12abfa51ce2f8d076eb56ae8c4fda3a6318bcf1160",
+        "metadata.json": "f87f6dd98da4838284026bcc9c54acbb1e38496e18a8b36411c5157ddc220f84",
+        "activation_qparams.bin": "31037ae851ed612e2dbfa38499a6b318a2c0650773a3432841dad148193e150e"
+      }
+    },
+    {
+      "bits": 4,
+      "method": "affine",
+      "mode": "weights_only",
+      "n": 10000,
+      "correct": 8820,
+      "accuracy": 0.882,
+      "cross_entropy": 0.3300319314002991,
+      "saved_torch_prediction_disagreements": 0,
+      "saved_torch_max_logit_error": 5.7220458984375e-06,
+      "input_sha256": {
+        "weights.bin": "784b177b864ab8aeb21918f2dd23e78327e2edeea4bb64571c78306aad0848ac",
+        "biases_fp32.bin": "6335eea3c3cd653a8e9991d53482766396e0347e978fc2c3e64c580b8131ea96",
+        "qparams.bin": "91ef7aefeae64154e7b22af3f09fe649856f320ad06d0f6f9536f20e38e549e2",
+        "metadata.json": "9ceeca062cf28314e090a2a2f855c0d12288b19cbd748dc4d38febe03b069f31"
+      }
+    },
+    {
+      "bits": 4,
+      "method": "affine",
+      "mode": "weights_activations",
+      "n": 10000,
+      "correct": 8680,
+      "accuracy": 0.868,
+      "cross_entropy": 0.35320332646369934,
+      "saved_torch_prediction_disagreements": 0,
+      "saved_torch_max_logit_error": 1.486011028289795,
+      "input_sha256": {
+        "weights.bin": "784b177b864ab8aeb21918f2dd23e78327e2edeea4bb64571c78306aad0848ac",
+        "biases_fp32.bin": "6335eea3c3cd653a8e9991d53482766396e0347e978fc2c3e64c580b8131ea96",
+        "qparams.bin": "91ef7aefeae64154e7b22af3f09fe649856f320ad06d0f6f9536f20e38e549e2",
+        "metadata.json": "9ceeca062cf28314e090a2a2f855c0d12288b19cbd748dc4d38febe03b069f31",
+        "activation_qparams.bin": "28ab64cf5146e0abad57184902d6b2c9d17d35505db2e817e57949db8536fc3f"
+      }
+    },
+    {
+      "bits": 2,
+      "method": "symmetric",
+      "mode": "weights_only",
+      "n": 10000,
+      "correct": 771,
+      "accuracy": 0.0771,
+      "cross_entropy": 2.299534797668457,
+      "saved_torch_prediction_disagreements": 0,
+      "saved_torch_max_logit_error": 2.384185791015625e-07,
+      "input_sha256": {
+        "weights.bin": "a548f350cf4e2e74cf6aa9b539f64b92b5234b26136b78bce8f5f7ddf7f8072b",
+        "biases_fp32.bin": "6335eea3c3cd653a8e9991d53482766396e0347e978fc2c3e64c580b8131ea96",
+        "qparams.bin": "0bce7cf456cdf0634c8609c9c5c74260e528cc936e7d1813e1b6a3bc666ab4c3",
+        "metadata.json": "eb95adabc67dc159fdc8526f6abea69326714b89a3020727993e965f1fbeb2d9"
+      }
+    },
+    {
+      "bits": 2,
+      "method": "symmetric",
+      "mode": "weights_activations",
+      "n": 10000,
+      "correct": 1000,
+      "accuracy": 0.1,
+      "cross_entropy": 2.3025853633880615,
+      "saved_torch_prediction_disagreements": 0,
+      "saved_torch_max_logit_error": 0.0,
+      "input_sha256": {
+        "weights.bin": "a548f350cf4e2e74cf6aa9b539f64b92b5234b26136b78bce8f5f7ddf7f8072b",
+        "biases_fp32.bin": "6335eea3c3cd653a8e9991d53482766396e0347e978fc2c3e64c580b8131ea96",
+        "qparams.bin": "0bce7cf456cdf0634c8609c9c5c74260e528cc936e7d1813e1b6a3bc666ab4c3",
+        "metadata.json": "eb95adabc67dc159fdc8526f6abea69326714b89a3020727993e965f1fbeb2d9",
+        "activation_qparams.bin": "c899e9b1515f5ead641afce3e8b25416f33cecf0e2620844a1c689cfcd28d635"
+      }
+    },
+    {
+      "bits": 2,
+      "method": "affine",
+      "mode": "weights_only",
+      "n": 10000,
+      "correct": 2822,
+      "accuracy": 0.2822,
+      "cross_entropy": 2.7374510765075684,
+      "saved_torch_prediction_disagreements": 0,
+      "saved_torch_max_logit_error": 2.86102294921875e-06,
+      "input_sha256": {
+        "weights.bin": "8dbde9d703847a27946dfc3a8131a2573e54c09c1073f234e3fac340e4a47f03",
+        "biases_fp32.bin": "6335eea3c3cd653a8e9991d53482766396e0347e978fc2c3e64c580b8131ea96",
+        "qparams.bin": "d8c0491d4c81bcc84a4f7b3830186bd28adc59805308372e79fc6accb6744de6",
+        "metadata.json": "735c858a40ca359f031c748d695f12768b57186801eaf680f4d36a1abeb0e98a"
+      }
+    },
+    {
+      "bits": 2,
+      "method": "affine",
+      "mode": "weights_activations",
+      "n": 10000,
+      "correct": 1708,
+      "accuracy": 0.1708,
+      "cross_entropy": 3.351179361343384,
+      "saved_torch_prediction_disagreements": 0,
+      "saved_torch_max_logit_error": 0.0,
+      "input_sha256": {
+        "weights.bin": "8dbde9d703847a27946dfc3a8131a2573e54c09c1073f234e3fac340e4a47f03",
+        "biases_fp32.bin": "6335eea3c3cd653a8e9991d53482766396e0347e978fc2c3e64c580b8131ea96",
+        "qparams.bin": "d8c0491d4c81bcc84a4f7b3830186bd28adc59805308372e79fc6accb6744de6",
+        "metadata.json": "735c858a40ca359f031c748d695f12768b57186801eaf680f4d36a1abeb0e98a",
+        "activation_qparams.bin": "e44195e44eb30b8cabfdb059a5005ed917c6e87afffda12f8bf01025edec0097"
+      }
+    }
+  ],
+  "seconds": 44.50752375999991,
+  "neural_network_imports": []
+}

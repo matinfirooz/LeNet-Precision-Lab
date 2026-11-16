@@ -1,0 +1,313 @@
+{
+  "status": "completed",
+  "torch_version": "2.5.1+cpu",
+  "results": [
+    {
+      "name": "FP32",
+      "method": "float",
+      "bits": 32,
+      "mode": "floating_point",
+      "execution": "native FP32",
+      "payload_bytes": 246824,
+      "compression_ratio": 1,
+      "n": 10000,
+      "correct": 8884,
+      "accuracy": 0.8884,
+      "cross_entropy": 0.3114386741638184
+    },
+    {
+      "name": "FP16",
+      "method": "float",
+      "bits": 16,
+      "mode": "floating_point",
+      "execution": "native FP16 CPU",
+      "payload_bytes": 123412,
+      "compression_ratio": 2,
+      "n": 10000,
+      "correct": 8885,
+      "accuracy": 0.8885,
+      "cross_entropy": 0.31131875
+    },
+    {
+      "name": "INT16",
+      "method": "symmetric",
+      "bits": 16,
+      "mode": "weights_only",
+      "execution": "FP32 Q/DQ simulation",
+      "payload_bytes": 123984,
+      "compression_ratio": 1.990773002968125,
+      "n": 10000,
+      "correct": 8884,
+      "accuracy": 0.8884,
+      "cross_entropy": 0.31143674240112307
+    },
+    {
+      "name": "INT16",
+      "method": "symmetric",
+      "bits": 16,
+      "mode": "weights_activations",
+      "execution": "FP32 Q/DQ simulation",
+      "payload_bytes": 124144,
+      "compression_ratio": 1.9882072432014435,
+      "n": 10000,
+      "correct": 8884,
+      "accuracy": 0.8884,
+      "cross_entropy": 0.3114384956359863
+    },
+    {
+      "name": "INT16",
+      "method": "affine",
+      "bits": 16,
+      "mode": "weights_only",
+      "execution": "FP32 Q/DQ simulation",
+      "payload_bytes": 123984,
+      "compression_ratio": 1.990773002968125,
+      "n": 10000,
+      "correct": 8884,
+      "accuracy": 0.8884,
+      "cross_entropy": 0.31143893432617187
+    },
+    {
+      "name": "INT16",
+      "method": "affine",
+      "bits": 16,
+      "mode": "weights_activations",
+      "execution": "FP32 Q/DQ simulation",
+      "payload_bytes": 124144,
+      "compression_ratio": 1.9882072432014435,
+      "n": 10000,
+      "correct": 8884,
+      "accuracy": 0.8884,
+      "cross_entropy": 0.3114383018493652
+    },
+    {
+      "name": "INT8",
+      "method": "symmetric",
+      "bits": 8,
+      "mode": "weights_only",
+      "execution": "FP32 Q/DQ simulation",
+      "payload_bytes": 62514,
+      "compression_ratio": 3.9482995808938797,
+      "n": 10000,
+      "correct": 8885,
+      "accuracy": 0.8885,
+      "cross_entropy": 0.31067276611328126
+    },
+    {
+      "name": "INT8",
+      "method": "symmetric",
+      "bits": 8,
+      "mode": "weights_activations",
+      "execution": "FP32 Q/DQ simulation",
+      "payload_bytes": 62674,
+      "compression_ratio": 3.9382199955324375,
+      "n": 10000,
+      "correct": 8882,
+      "accuracy": 0.8882,
+      "cross_entropy": 0.3109201538085937
+    },
+    {
+      "name": "INT8",
+      "method": "affine",
+      "bits": 8,
+      "mode": "weights_only",
+      "execution": "FP32 Q/DQ simulation",
+      "payload_bytes": 62514,
+      "compression_ratio": 3.9482995808938797,
+      "n": 10000,
+      "correct": 8884,
+      "accuracy": 0.8884,
+      "cross_entropy": 0.3113811965942383
+    },
+    {
+      "name": "INT8",
+      "method": "affine",
+      "bits": 8,
+      "mode": "weights_activations",
+      "execution": "FP32 Q/DQ simulation",
+      "payload_bytes": 62674,
+      "compression_ratio": 3.9382199955324375,
+      "n": 10000,
+      "correct": 8885,
+      "accuracy": 0.8885,
+      "cross_entropy": 0.31150944519042967
+    },
+    {
+      "name": "INT4",
+      "method": "symmetric",
+      "bits": 4,
+      "mode": "weights_only",
+      "execution": "FP32 Q/DQ simulation",
+      "payload_bytes": 31779,
+      "compression_ratio": 7.766890084647094,
+      "n": 10000,
+      "correct": 8826,
+      "accuracy": 0.8826,
+      "cross_entropy": 0.32950692443847657
+    },
+    {
+      "name": "INT4",
+      "method": "symmetric",
+      "bits": 4,
+      "mode": "weights_activations",
+      "execution": "FP32 Q/DQ simulation",
+      "payload_bytes": 31939,
+      "compression_ratio": 7.727981464667021,
+      "n": 10000,
+      "correct": 8626,
+      "accuracy": 0.8626,
+      "cross_entropy": 0.3604248306274414
+    },
+    {
+      "name": "INT4",
+      "method": "affine",
+      "bits": 4,
+      "mode": "weights_only",
+      "execution": "FP32 Q/DQ simulation",
+      "payload_bytes": 31779,
+      "compression_ratio": 7.766890084647094,
+      "n": 10000,
+      "correct": 8820,
+      "accuracy": 0.882,
+      "cross_entropy": 0.33003193969726563
+    },
+    {
+      "name": "INT4",
+      "method": "affine",
+      "bits": 4,
+      "mode": "weights_activations",
+      "execution": "FP32 Q/DQ simulation",
+      "payload_bytes": 31939,
+      "compression_ratio": 7.727981464667021,
+      "n": 10000,
+      "correct": 8680,
+      "accuracy": 0.868,
+      "cross_entropy": 0.35309918746948243
+    },
+    {
+      "name": "INT2",
+      "method": "symmetric",
+      "bits": 2,
+      "mode": "weights_only",
+      "execution": "FP32 Q/DQ simulation",
+      "payload_bytes": 16412,
+      "compression_ratio": 15.03923958079454,
+      "n": 10000,
+      "correct": 771,
+      "accuracy": 0.0771,
+      "cross_entropy": 2.2995348083496094
+    },
+    {
+      "name": "INT2",
+      "method": "symmetric",
+      "bits": 2,
+      "mode": "weights_activations",
+      "execution": "FP32 Q/DQ simulation",
+      "payload_bytes": 16572,
+      "compression_ratio": 14.894038136615979,
+      "n": 10000,
+      "correct": 1000,
+      "accuracy": 0.1,
+      "cross_entropy": 2.302585363769531
+    },
+    {
+      "name": "INT2",
+      "method": "affine",
+      "bits": 2,
+      "mode": "weights_only",
+      "execution": "FP32 Q/DQ simulation",
+      "payload_bytes": 16412,
+      "compression_ratio": 15.03923958079454,
+      "n": 10000,
+      "correct": 2822,
+      "accuracy": 0.2822,
+      "cross_entropy": 2.7374513610839846
+    },
+    {
+      "name": "INT2",
+      "method": "affine",
+      "bits": 2,
+      "mode": "weights_activations",
+      "execution": "FP32 Q/DQ simulation",
+      "payload_bytes": 16572,
+      "compression_ratio": 14.894038136615979,
+      "n": 10000,
+      "correct": 1708,
+      "accuracy": 0.1708,
+      "cross_entropy": 3.351179260253906
+    }
+  ],
+  "native_int8": {
+    "name": "Native INT8",
+    "method": "per_channel_weight_affine_activation",
+    "bits": 8,
+    "mode": "weights_activations",
+    "execution": "quantized CPU operators",
+    "checkpoint_bytes": 75846,
+    "n": 10000,
+    "correct": 8829,
+    "accuracy": 0.8829,
+    "cross_entropy": 0.32029941558837893
+  },
+  "native_operators": [
+    {
+      "layer": "net.conv1",
+      "operator": "torch.ao.nn.quantized.modules.conv.Conv2d",
+      "weight_dtype": "torch.qint8",
+      "qscheme": "torch.per_channel_affine",
+      "shape": [
+        6,
+        1,
+        5,
+        5
+      ]
+    },
+    {
+      "layer": "net.conv3",
+      "operator": "torch.ao.nn.quantized.modules.conv.Conv2d",
+      "weight_dtype": "torch.qint8",
+      "qscheme": "torch.per_channel_affine",
+      "shape": [
+        16,
+        6,
+        5,
+        5
+      ]
+    },
+    {
+      "layer": "net.conv5",
+      "operator": "torch.ao.nn.quantized.modules.conv.Conv2d",
+      "weight_dtype": "torch.qint8",
+      "qscheme": "torch.per_channel_affine",
+      "shape": [
+        120,
+        16,
+        5,
+        5
+      ]
+    },
+    {
+      "layer": "net.fc6",
+      "operator": "torch.ao.nn.quantized.modules.linear.Linear",
+      "weight_dtype": "torch.qint8",
+      "qscheme": "torch.per_channel_affine",
+      "shape": [
+        84,
+        120
+      ]
+    },
+    {
+      "layer": "net.fc7",
+      "operator": "torch.ao.nn.quantized.modules.linear.Linear",
+      "weight_dtype": "torch.qint8",
+      "qscheme": "torch.per_channel_affine",
+      "shape": [
+        10,
+        84
+      ]
+    }
+  ],
+  "calibration_images": 1000,
+  "calibration_source": "training split only",
+  "seconds": 18.857709071000045
+}

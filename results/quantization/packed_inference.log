@@ -1,0 +1,74 @@
+{
+  "author": "Matin Firoozbakht",
+  "github": "https://github.com/matinfirooz",
+  "method": "affine",
+  "bits": 8,
+  "mode": "weights_only",
+  "execution": "NumPy FP32 Q/DQ from packed parameter bytes; not an integer-only accelerator",
+  "input_sha256": {
+    "weights.bin": "43866bcfe72ef90dc4786000b2182e734b5aee4a9c1616bb944d7a4f6db98e52",
+    "biases_fp32.bin": "6335eea3c3cd653a8e9991d53482766396e0347e978fc2c3e64c580b8131ea96",
+    "qparams.bin": "3511b767f0456e4944f7c380df84be2eb5524de0f24084af2efee1aa5f1b7b60",
+    "metadata.json": "c2c0f791f59d7178f342f064302e5abb1e09fdb451016d64bd377b70b4f7be8c"
+  },
+  "n": 10000,
+  "correct": 8884,
+  "accuracy": 0.8884,
+  "cross_entropy": 0.31138119101524353,
+  "saved_torch_prediction_disagreements": 0,
+  "saved_torch_max_logit_error": 6.67572021484375e-06,
+  "per_class": [
+    {
+      "class": "T-shirt/top",
+      "n": 1000,
+      "correct": 861
+    },
+    {
+      "class": "Trouser",
+      "n": 1000,
+      "correct": 975
+    },
+    {
+      "class": "Pullover",
+      "n": 1000,
+      "correct": 827
+    },
+    {
+      "class": "Dress",
+      "n": 1000,
+      "correct": 922
+    },
+    {
+      "class": "Coat",
+      "n": 1000,
+      "correct": 758
+    },
+    {
+      "class": "Sandal",
+      "n": 1000,
+      "correct": 965
+    },
+    {
+      "class": "Shirt",
+      "n": 1000,
+      "correct": 669
+    },
+    {
+      "class": "Sneaker",
+      "n": 1000,
+      "correct": 973
+    },
+    {
+      "class": "Bag",
+      "n": 1000,
+      "correct": 976
+    },
+    {
+      "class": "Ankle boot",
+      "n": 1000,
+      "correct": 958
+    }
+  ],
+  "seconds": 2.489903028000299,
+  "neural_network_imports": []
+}
